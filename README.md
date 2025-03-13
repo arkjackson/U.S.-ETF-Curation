@@ -28,8 +28,13 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
 1. **Data Preprocessing**
    - Adjust data scale using Max-Min normalization:  
      $$X' = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}$$
+     
+     Normalizes data to a range between 0 and 1 based on minimum and maximum values.
+
    - Calculate excess stock returns (Target):  
-     $$\text{Excess Return}_{t+1} = \text{Stock Return}_{t+1} - \text{Benchmark Return}_{t+1}$$
+     $$ExcessReturn_{t+1} = StockReturn_{t+1} - BenchmarkReturn_{t+1}$$
+     
+     Measures the stock's performance relative to a benchmark at time $$\(t+1\)$$.
 
 2. **Feature Selection**
    - Combine Genetic Algorithm (GA) with tree models (XGBoost, LightGBM) for feature selection
@@ -39,7 +44,8 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
 3. **Model Training**
    - Compare performance across memory periods (5, 10, 15, 20 days) using Markovian Property:  
      $$P(X_t | X_{t-1}, X_{t-2}, \ldots, X_0) = P(X_t | X_{t-1})$$  
-     This indicates that the current state \(X_t\) depends only on the previous state \(X_{t-1}\), not the entire history.
+     Indicates that the current state $$\(X_t\)$$ depends only on the previous state $$\(X_{t-1}\)$$, not the full historical sequence.
+
    - Optimal models: RandomForest for short-term (5 days), SVM for long-term (20 days)
 
 4. **ETF Recommendation Algorithm**
@@ -77,5 +83,3 @@ U.S.-ETF-Curation/
 
 - Author: arkjackson
 - Email: mihy1968@gmail.com
-
----
