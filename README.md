@@ -41,6 +41,8 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
    - Utilize tree-structured models to enhance interpretability
    - Filter top 20% feature set using Importance Score Filtering (ISF)
 
+   ![Result of Feature Selection](results/feature_selection.png)
+
 3. **Model Training**
    - Compare performance across memory periods (5, 10, 15, 20 days) using Markovian Property:  
      $$P(X_t | X_{t-1}, X_{t-2}, \ldots, X_0) = P(X_t | X_{t-1})$$  
@@ -66,7 +68,8 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
 - **Comparison**
   - Outperforms major U.S. ETFs (SPY, QQQ, IWM, VTI, DIA)
   - Superior to Fint (4%) and Bullio (5.01%) in returns
-![AI Model VS Major U.S. ETFs](https://imgur.com/a/YlJRM6N)
+
+   ![AI Model VS_Major U.S. ETFs](results/AI_vs_us_etf.png)
 ---
 
 ## Project Structure
@@ -81,7 +84,11 @@ U.S.-ETF-Curation/
 
 ---
 
+## References
+
+---
+
 ## Contact
 
-- Author: arkjackson
+- Author: [arkjackson](https://github.com/arkjackson)
 - Email: mihy1968@gmail.com
