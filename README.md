@@ -73,8 +73,10 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
 ```
 U.S.-ETF-Curation/
 ├── results/            # Graphs and simulation results
+├── src/                # Code file
 ├── U.S._ETF_Curation.ipynb  # Main notebook file
-└── README.md           # Project description
+├── README.md           # Project description
+└── requirements.txt    
 ```
 
 ---
