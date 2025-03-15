@@ -66,7 +66,7 @@ NH Investment Big Data Competition - U.S. ETF curation model focused on profitab
 - **Comparison**
   - Outperforms major U.S. ETFs (SPY, QQQ, IWM, VTI, DIA)
   - Superior to Fint (4%) and Bullio (5.01%) in returns
-
+![AI Model VS Major U.S. ETFs](https://imgur.com/a/YlJRM6N)
 ---
 
 ## Project Structure
