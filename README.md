@@ -86,6 +86,10 @@ U.S.-ETF-Curation/
 
 ## References
 
+- "Interpretable stock price forecasting model using genetic algorithm-machine learning regressions and best feature subset selection" by Kyung Keun Yun et al., 2023.
+
+- "Integrated Long-Term Stock Selection Models Based on Feature Selection and Machine Learning Algorithms for China Stock Market" by XIANGHUI YUAN et al, 2020.
+
 ---
 
 ## Contact
