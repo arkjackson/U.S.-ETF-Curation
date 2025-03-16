@@ -92,7 +92,13 @@ U.S.-ETF-Curation/
 
 ---
 
+## License
+
+[MIT License](LICENSE)
+
 ## Contact
 
 - Author: [arkjackson](https://github.com/arkjackson)
 - Email: mihy1968@gmail.com
+
+---
